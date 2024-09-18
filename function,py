@@ -1,0 +1,17 @@
+def vac_eff(vacine, efficacy):
+
+    print(f"{vacine} having {efficacy} % efficacy")
+
+    if (efficacy > 50) and (efficacy <= 75):
+      print("not much effective")
+
+    elif(efficacy > 75) and (efficacy <= 90):
+      print(" much effective")
+
+    elif (efficacy > 90):
+      print(" take a shot")
+
+    else:
+      print("effectiveless")
+
+vac_eff("covishield", 25)
