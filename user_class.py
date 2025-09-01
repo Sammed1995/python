@@ -16,3 +16,8 @@ class User:
         print(f"User {self.name} currently works as a {self.current_job_title}. "
               f"You can contact them at {self.email}. "
               f"Password: {masked_password}")
+app_user_one = User("np@np.com", "Nana Janapashia", "pwd1", "DevOps Engineer")
+
+app_user_one.get_user_info()
+# Output: User Nana Janapashia currently works as a DevOps Engineer. 
+# You can contact them at np@np.com. Password: ****
